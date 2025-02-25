@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            width: 24%;
+            margin: 0 auto;
+            padding: 15px;
+            text-align: left;
+            background-color: white
+            
+           }
+        div form{
+            box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            padding-left: 5%;
+            display: inline-block;
+        }
+        form input{
+            width: 250px;
+            height: 20px;
+        }
+        form p{
+            font-size: smaller;
+        }
+        .main img{
+            width: 190px;
+        }
+        .c-button{
+            background-color: chocolate;
+            border-radius: 4px;
+            padding: 5px;
+            line-height: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div style="text-align: center; ">
+            <img src="assets/img/amazon.png" alt=""> 
+        </div>
+            <form action="" method="post">
+            <h2>Create account</h2>
+            <label for="">Your Name:</label><br>
+            <input type="text" id="yourname" placeholder="First and Last name"><br><br>
+            <label for="">Email:</label><br>
+            <input type="text" id="Email" placeholder="abod@gmail.com"><br><br>
+            <label for="">Password:</label><br>
+            <input type="text" id="password" placeholder="at loast 6 charactors"><br><br>
+            <label for="">Re-enter Password:</label><br>
+            <input type="password" placeholder="Re-enter Password"><br><br>
+            <input class="c-button" type="button" value="Continue"><br><br>
+        
+            <p>By creating an account. You agree to Amazon's <br> Conditions of use and Privacy Notice</p>
+            
+            <p>Already have an account? Sign in. Buying for work? <br> Create a free business account.
+            </form>
+    </div>
+</body>
+</html>
